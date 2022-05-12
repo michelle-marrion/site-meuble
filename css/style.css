@@ -1,0 +1,113 @@
+body
+{
+	background-size: cover;
+}
+#logo img
+{
+	width: 100px;
+	height:100px;
+}
+#entete
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+/*#nav-icon
+{
+	width: 2px;
+	height:2px;
+}*/
+#menu
+{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+
+}
+.onglet
+{
+	width: 100px;
+	height: 50px;
+
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	padding: 10px;
+
+}
+.onglet a
+{
+	color:white;
+}
+.onglet a:hover
+{
+	border-bottom: 2px solid white;
+
+}
+#content-center-page
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*text-align: center;
+	margin: auto;*/	
+}
+
+#content-center-page h1
+{
+	text-transform: uppercase;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 10em;
+	font-style:initial;
+	font-family: 'Bebas Neue Light', sans-serif;
+}
+.button
+{ 
+		margin-top: -80px;
+
+	list-style: none;
+	text-decoration: none;
+	
+}
+.content-center-page
+{
+}
+.button a
+{
+	text-align: center;
+	padding: 20px;
+	width: auto;
+	height: 50px;
+	font-size: 2.5em;
+	background-color: white;
+	color:#3a3a3a;
+	border-raduis:20px;
+}
+.button a:hover
+{
+	background-color: transparent;
+	color:white;
+	border:1px solid white;
+}
+#button-content
+{
+	display: flex;
+	flex-direction: column;
+}
+p
+{
+	margin-top: 50px;
+	color:white;
+	font-family: Courgette;
+	text-align: center;
+}
