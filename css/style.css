@@ -113,6 +113,7 @@ a
 }
 
 /*index 2*/
+
 #left-content
 {
 /*	width: 500px;
@@ -130,7 +131,7 @@ a
 	margin-top: -190px;
 }
 
-#button-content1 p
+#button-content2 p
 {
 	margin-top: -180px;
 	color:white;
@@ -145,7 +146,12 @@ a
 	text-align: center;*/
 
 }
-#content-center-page2 h1
+#content-center-page3
+{
+	margin-left:80%;
+}
+
+#content-center-page3 h1
 {
 	text-transform: uppercase;
 	color:white;
@@ -153,13 +159,13 @@ a
 	/*text-align: center;*/
 	font-size: 10em;
 	font-style:initial;
-	font-family: 'Bebas Neue Light', sans-serif;	
+	font-family: 'Bebas Neue Light', sans-serif;
 }
 
-#logo-bottom img
+#logo-bottom-left img
 {
 	position: absolute;
-	left: 90%;
+	/*left: 90%;*/
 	bottom: 2%;
 	width: 100px;
 
@@ -171,3 +177,44 @@ a
 	height: 5px;
 	background-color: white;
 }*/
+
+/* Index3.html*/
+
+#left-content
+{
+/*	width: 500px;
+	background-color: white;*/
+	height: auto;
+	margin-left: 20px;
+}
+
+#left-content #button-content1 p
+{
+	text-align: left;
+}
+#left-content
+{
+	margin-top: -190px;
+}
+
+#button-content2 p
+{
+	margin-top: -180px;
+	color:white;
+	font-weight: bold;
+	font-size: 3em;
+	font-style:initial;
+	font-family: 'Montserrat regular', sans-serif;
+	
+
+}
+#content-center-page2 h1
+{
+	text-transform: uppercase;
+	color:white;
+	font-weight: bold;
+	/*text-align: center;*/
+	font-size: 10em;
+	font-style:initial;
+	font-family: 'Bebas Neue Light', sans-serif;	
+}
